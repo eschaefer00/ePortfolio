@@ -3,7 +3,7 @@ import pandas as pd
 from neuralprophet.df_utils import check_dataframe
 
 # data import
-df = pd.read_csv(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\data\stackOverflow.csv', sep=',')
+df = pd.read_csv(r'/Users/elifant/PycharmProjects/ePortfolio/data/stackOverflow.csv', sep=',')
 
 # PYTHON
 
@@ -34,9 +34,9 @@ fig_comp_py = m_py.plot_components(future_forecast_py)
 fig_param_py = m_py.plot_parameters(weekly_start=0, yearly_start=0, figsize=None, df_name=None)
 
 # save figures
-# fig_fcst_py.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\fig_fcst_py.png')
-# fig_comp_py.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\fig_comp_py.png')
-# fig_param_py.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\fig_param_py.png')
+# fig_fcst_py.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/fig_fcst_py.png')
+# fig_comp_py.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/fig_comp_py.png')
+# fig_param_py.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/fig_param_py.png')
 
 # MACHINE LEARNING
 
@@ -66,9 +66,9 @@ fig_comp_ml = m_ml.plot_components(future_forecast_ml)
 fig_param_ml = m_ml.plot_parameters(weekly_start=0, yearly_start=0, figsize=None, df_name=None)
 
 # save figures
-# fig_fcst_ml.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\forecast_ml.png')
-# fig_comp_ml.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\components_ml.png')
-# fig_param_ml.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\parameters_ml.png')
+# fig_fcst_ml.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/forecast_ml.png')
+# fig_comp_ml.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/components_ml.png')
+# fig_param_ml.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/parameters_ml.png')
 
 # PANDAS
 
@@ -98,6 +98,6 @@ fig_comp_pd = m_pd.plot_components(future_forecast_pd)
 fig_param_pd = m_pd.plot_parameters(weekly_start=0, yearly_start=0, figsize=None, df_name=None)
 
 # save figures
-# fig_fcst_pd.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\forecast_pd.png')
-# fig_comp_pd.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\components_pd.png')
-# fig_param_pd.savefig(r'C:\Users\Elisa Schäfer\Documents\DHBW\Code\SoftwareEngineering\ePortfolio\results\parameters_pd.png')
+# fig_fcst_pd.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/forecast_pd.png')
+# fig_comp_pd.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/components_pd.png')
+# fig_param_pd.savefig(r'/Users/elifant/PycharmProjects/ePortfolio/results/parameters_pd.png')
