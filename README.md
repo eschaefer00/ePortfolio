@@ -1,4 +1,4 @@
-# ePortfolio
+# ePortfolio NeuralProphet
 This repository is created for my ePortfolio in Software Engineering.
 
 You can find the ePortfolio's code and some snippets for explanation in the folder 'src'. 
